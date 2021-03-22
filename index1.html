@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Booking</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="login-page">
+	<div class="form">
+	<form class="register-form">
+		<input type="text" placeholder="User name">
+		<input type="text" placeholder="Password">
+		<input type="text" placeholder="Email-address">
+		<input type="text" placeholder="Mobile Number">
+		<input type="title" placeholder="Travelling Destination">
+		<button>Creat Account</button>
+		<p class="message">Already Registered? <a href="#">Log In</a>
+		</p>
+       </form>
+		<form class="login-form">
+			<input type="text" placeholder="User name">
+			<input type="text" placeholder="Password">
+			<button>Log In</button>
+			<p class="message">Not Registered? <a href="#">Sign Up</a>
+		</p>
+	</form>
+
+	</div>
+</div>
+
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+     <script>
+     	$('.message a').click(function(){
+     		$('form').animate({height:"toggle",opacity:"toggle"},"slow");});
+     </script>
+
+</body>
+</html>

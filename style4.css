@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(40deg,#B8F591,#35EDE5);
+    font-family: 'Righteous', cursive;
+}
+.Services{
+	margin: 90px auto;
+	text-align: center;
+
+}
+h1{
+	letter-spacing: 1px;
+}
+h1:after{
+	content: '';
+	background-color: red;
+	display: block;
+	width: 150px;
+	height: 3px;
+	margin: 10px auto;
+
+}
